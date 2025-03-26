@@ -1,0 +1,7 @@
+{
+  "name": "point-movil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
