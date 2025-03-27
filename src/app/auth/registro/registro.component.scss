@@ -1,0 +1,22 @@
+:host {
+  width: 100%;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 1rem;
+}

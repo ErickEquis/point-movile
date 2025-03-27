@@ -1,0 +1,38 @@
+<div class="contenedor">
+
+  <p class="texto-principal" style="align-self: start; font-size: 1.25rem;">
+    Ingresa a tu cuenta
+  </p>
+
+  <ion-item class="input">
+    <ion-input type="email" label="Correo electronico" label-placement="floating"></ion-input>
+  </ion-item>
+
+  <ion-item class="input">
+    <ion-input type="password" label="Contraseña" label-placement="floating">
+    </ion-input>
+    <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+  </ion-item>
+
+  <ion-button expand="block" style="width: 100%;">Ingresar</ion-button>
+
+  <p class="texto-principal">
+    <a [routerLink]="['/auth/recuperar-contrasenia']"><strong>Recuperar contraseña</strong></a>
+  </p>
+
+  <div style="margin: 1rem 0;">
+    <p class="texto-principal">
+      O inicia sesión con
+    </p>
+
+    <div class="redes-sociales">
+      <ion-icon size="large" src="assets/icon/facebook.svg"></ion-icon>
+      <ion-icon size="large" src="assets/icon/google.svg"></ion-icon>
+    </div>
+  </div>
+
+  <p class="texto-principal">
+    ¿No tienes cuenta? <a [routerLink]="['/auth/registro']"><strong>Registrate</strong></a>
+  </p>
+
+</div>

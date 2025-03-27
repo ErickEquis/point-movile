@@ -1,0 +1,15 @@
+.container-layout {
+  background-color: #F0F4F8;
+  height: 100%;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
